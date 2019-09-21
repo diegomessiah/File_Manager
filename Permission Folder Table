@@ -1,4 +1,4 @@
-$FolderPath = dir -Directory -Path "\\fileserver\Shared" -Recurse -Force
+$FolderPath = dir -Directory -Path "\\FileServer\SharedFolder" -Recurse -Force
 $Report = @()
 Foreach ($Folder in $FolderPath) {
     $Acl = Get-Acl -Path $Folder.FullName
