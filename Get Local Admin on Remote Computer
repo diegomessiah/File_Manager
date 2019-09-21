@@ -1,6 +1,6 @@
 # Script:   Get-Remote-LocalAdmins
 # Purpose:  This script print the members of a remote machine's local Admins group
-# Author:   Diego Messiah				
+# Author:   Diego Messiah | https://github.com/diegomessiah	
 
 $Computers = Get-Content computers.txt 
 ForEach ($Computer in $Computers)
