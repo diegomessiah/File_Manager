@@ -10,4 +10,4 @@ User'=$Access.IdentityReference;'Permissions'=$Access.FileSystemRights;'Inherite
             $Report += New-Object -TypeName PSObject -Property $Properties
         }
 }
-$Report | Export-Csv -path "C:\data\FolderPermissions.csv"
+$Report | Export-Csv -path ".\FolderPermissions.csv"
