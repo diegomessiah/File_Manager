@@ -1,3 +1,7 @@
+# Script:     Size Folder on Servers & Workstations
+# Purpose:    This script print the size of folder on a remote/s machine
+# Author:   Diego Messiah	
+
 $dataColl = @()
 foreach ($serverName in (get-content .\servers.txt)) #Recolect the name of list computers on file txt
 {
