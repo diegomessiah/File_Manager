@@ -1,5 +1,5 @@
 # IT-Powershell
-- **Size Folder on Servers & Workstations** 
+**Size Folder on Servers & Workstations** 
 
 Server.txt : List of servers (IP or SAM)
 Path: Directory Destination
