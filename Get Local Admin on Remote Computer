@@ -1,5 +1,5 @@
-# Script:	Get-Remote-LocalAdmins
-# Purpose:  This script print the members of a remote machine's local Admins group
+# Script:   Get-Remote-LocalAdmins
+# Purpose:    This script print the members of a remote machine's local Admins group
 # Author:   Diego Messiah				
 
 $Computers = Get-Content computers.txt 
