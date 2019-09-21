@@ -7,7 +7,7 @@
 
 **Permission Folder Table**
 
-- $FolderPath -Path : Folder Shared like \\LT-Diego\Games
+- $FolderPath -Path : Folder Shared i.e. \\LT-Diego\Games
 - Export to file FolderPermissions.csv with the permission on the Folder Shared
 
 **Get Local Admin on Remote Computer**
