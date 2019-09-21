@@ -1,3 +1,7 @@
+# Script:	Permission Folder Table
+# Purpose:  This script print the permission folder on shared folder
+# Author:   Diego Messiah | https://github.com/diegomessiah
+
 $FolderPath = dir -Directory -Path "\\FileServer\SharedFolder" -Recurse -Force
 $Report = @()
 Foreach ($Folder in $FolderPath) {
