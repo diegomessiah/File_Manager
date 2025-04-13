@@ -29,7 +29,7 @@ Make sure to run PowerShell with administrative privileges when needed.
 - Get-LocalAdmins.ps1 - Lists members of the local Administrators group
 - Machine_Name.ps1 - Retrieves machine hostname and domain/workgroup details
 - Permission_Folder.ps1 - Checks and lists folder permissions, including users/groups and access types
-- 
+
 ## 📄 License
 This project is licensed under the MIT License.
 
