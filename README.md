@@ -27,10 +27,9 @@ Make sure to run PowerShell with administrative privileges when needed.
 ## 📁 Scripts
 - Get-FolderSize.ps1 - Calculates folder size in GB
 - Get-LocalAdmins.ps1 - Lists members of the local Administrators group
-- Export-Results.ps1 - Exports results to CSV format
-- Check-FolderUsage.ps1 - Monitors file system usage and space
-- Generate-Report.ps1 - Generates automated reports of shared folder status
-
+- Machine_Name.ps1 - Retrieves machine hostname and domain/workgroup details
+- Permission_Folder.ps1 - Checks and lists folder permissions, including users/groups and access types
+- 
 ## 📄 License
 This project is licensed under the MIT License.
 
