@@ -1,21 +1,38 @@
-# IT-Powershell
-**Size Folder on Servers & Workstations** 
+# File Manager Scripts (PowerShell)
 
-- Server.txt : List of servers (IP or SAM)
-- Path: Directory Destination
-- Export to file SizeFolderOnServer.csv the size of directory $path
+A collection of useful PowerShell scripts designed to assist system administrators with common file system and user management tasks.
 
-**Permission Folder Table**
+## 📂 Features
 
-- $FolderPath -Path : Folder Shared i.e. \\LT-Diego\Games
-- Export to file FolderPermissions.csv with the permission on the Folder Shared
+- Calculate folder sizes for shared directories
+- List local administrators on machines
+- Export results to CSV
+- Check file system usage
+- Automated reporting
 
-**Machine Name**
+## ⚙️ Requirements
 
-- ip.txt : List of IP Address
-- Export to file Machinenames.csv after consulting the ip address with the DNS Server of local computer
+- Windows PowerShell 5.1+
+- Execution Policy set to allow script execution
 
-**Get Local Admin on Remote Computer**
+## 🚀 Usage
 
-- Computers.txt : List of servers (IP or SAM)
-- Export to Localadmin.txt, list of Local Administrator's members 
+Each script is standalone. Example:
+
+```powershell
+.\Get-FolderSize.ps1 -Path "C:\\Shared"
+```
+Make sure to run PowerShell with administrative privileges when needed.
+
+## 📁 Scripts
+- Get-FolderSize.ps1 - Calculates folder size in GB
+- Get-LocalAdmins.ps1 - Lists members of the local Administrators group
+- Export-Results.ps1 - Exports results to CSV format
+- Check-FolderUsage.ps1 - Monitors file system usage and space
+- Generate-Report.ps1 - Generates automated reports of shared folder status
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## 🙋‍♂️ Author
+Diego Messiah
